@@ -1,0 +1,120 @@
+#coupon-code{
+    background-color: #E527B2;
+    color: white;
+}
+#offer{
+    color: #E527B2;
+}
+
+#full-container{
+    background-color: #F9F6E2;
+    height: 650px;
+    padding-top: 30px;
+}
+#banner{
+    width: 550px;
+}
+#items-background{
+    background-color: #F8F8F8;
+}
+#accessories{
+    background-color:#F3F3F3 ;
+}
+.btn{
+    background-color: #E527B2;
+    color: white;
+}
+#btnDiv{
+    background-color: #FFFFFF;
+}
+
+#item-divs{
+    width: 300px;
+    height: 350px;
+}
+.textColor{
+    color: #888888;
+}
+
+@media screen and (max-width: 480px) {
+    #full-div{
+        flex-direction: column-reverse;  
+    }
+    #full-container{
+        height: 700px;
+    }
+    #banner-text{
+        font-size: 35px;
+    }
+    #banner-img{
+        width: 450px;
+        padding-left: 95px;
+        margin-bottom: -40px;
+        margin-top: -20px;
+    }
+  
+    #full-item-div{
+        flex-direction: column;
+    }
+    #first-div{
+        flex-direction: column;
+    }
+    #product{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Kitchenware{
+        text-align:center;
+    }
+    #Sportswear{
+        text-align: center;
+    }
+    #Furniture{
+        text-align: center;
+    }
+  }
+
+@media (min-width:768px) and (max-width: 1199px) {
+    
+    #full-container{
+        height: 400px;
+    }
+    #banner-full-text{
+        padding-left: 80px;
+    }
+    #banner-text{
+        font-size: 21px;
+    }
+    #promo-text{
+        font-size: 15px;
+    }
+    #banner-img{
+        width: 450px;
+        padding-left: 95px;
+        margin-bottom: -40px;
+        margin-top: -20px;
+    }
+  
+    #full-item-div{
+        flex-direction: column;
+    }
+    
+    #product{
+       display: grid;
+       grid-template-columns: auto auto;
+       max-width: 656px;
+    }
+    #Kitchenware{
+        padding-left: 85px;
+    }
+    #Sportswear{
+        padding-left: 85px;
+    }
+    #Furniture{
+        padding-left: 85px;
+    }
+    #cart-full{
+        height: 750px;
+    }
+  }
