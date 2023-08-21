@@ -38,10 +38,11 @@
 
 @media screen and (max-width: 480px) {
     #full-div{
-        flex-direction: column-reverse;  
+        flex-direction: column-reverse; 
+        overflow: hidden; 
     }
     #full-container{
-        height: 700px;
+        height: 750px;
     }
     #banner-text{
         font-size: 35px;
@@ -76,7 +77,9 @@
   }
 
 @media (min-width:768px) and (max-width: 1199px) {
-    
+    #saleFever{
+        font-size: 18px;
+    }
     #full-container{
         height: 400px;
     }
@@ -84,7 +87,7 @@
         padding-left: 80px;
     }
     #banner-text{
-        font-size: 21px;
+        font-size: 18px;
     }
     #promo-text{
         font-size: 15px;
@@ -94,7 +97,9 @@
         padding-left: 95px;
         margin-bottom: -40px;
         margin-top: -20px;
+        
     }
+  
   
     #full-item-div{
         flex-direction: column;
@@ -115,6 +120,6 @@
         padding-left: 85px;
     }
     #cart-full{
-        height: 750px;
+        height: 950px;
     }
   }
